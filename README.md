@@ -50,6 +50,10 @@ You can also run it as a Python module:
 python3 -m futures_code_search RB
 ```
 
+## Demo
+
+![Terminal usage demo](docs/assets/usage-demo.png)
+
 ## Tests
 
 ```bash

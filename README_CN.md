@@ -93,6 +93,10 @@ JSON 输出：
 python3 -m futures_code_search RB
 ```
 
+## 示例截图
+
+![终端使用示例](docs/assets/usage-demo.png)
+
 ## 匹配规则
 
 当前版本只做品种代码精确匹配，并且忽略大小写。
