@@ -12,6 +12,7 @@ dependencies = []
 
 [project.scripts]
 futures-code-search = "futures_code_search.cli:main"
+search = "futures_code_search.cli:main"
 
 [tool.setuptools.package-data]
 futures_code_search = ["data/*.json"]

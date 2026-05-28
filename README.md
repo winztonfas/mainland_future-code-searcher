@@ -10,15 +10,21 @@ https://akshare.akfamily.xyz/data/futures/futures.html
 From this directory:
 
 ```bash
-python3 -m futures_code_search RB
-python3 -m futures_code_search rb
-python3 -m futures_code_search --json IF
-python3 -m futures_code_search --list-exchanges
-python3 -m futures_code_search --version-source
+./search RB
+./search rb
+./search --json IF
+./search --list-exchanges
+./search --version-source
 ```
 
 Exact product-code matching is used. Contract codes such as `rb2410` are not
 parsed in v1.
+
+You can also run it as a Python module:
+
+```bash
+python3 -m futures_code_search RB
+```
 
 ## Tests
 
