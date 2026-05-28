@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "futures-code-search"
+version = "0.1.0"
+description = "Offline lookup for China futures product codes."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+futures-code-search = "futures_code_search.cli:main"
+
+[tool.setuptools.package-data]
+futures_code_search = ["data/*.json"]
+
+[tool.setuptools.packages.find]
+include = ["futures_code_search*"]
